@@ -1,0 +1,6 @@
+{
+  "name": "Thread & Style - Digital Boutique & Bespoke Tailoring",
+  "description": "Premium digital boutique and couture tailoring management platform for bespoke garments, interactive design customization, precise measurement tracking, and order workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
