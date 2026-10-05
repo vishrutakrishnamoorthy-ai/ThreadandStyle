@@ -4,10 +4,7 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  const rawBase = process.env.BASE_URL;
-  const base = rawBase && rawBase !== '.' && rawBase !== './'
-    ? (rawBase.endsWith('/') ? rawBase : `${rawBase}/`)
-    : './';
+  const base = process.env.BASE_URL || '/ThreadandStyle/';
 
   return {
     base,
